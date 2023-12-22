@@ -1,0 +1,10 @@
+# Unity generated files
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/Builds/
+
+# OS generated files
+.DS_Store
+Thumbs.db
