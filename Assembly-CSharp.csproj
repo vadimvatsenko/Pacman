@@ -68,8 +68,10 @@
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Ghosts.cs" />
+    <Compile Include="Assets\Scripts\PowerPellet.cs" />
     <Compile Include="Assets\Scripts\Pacman.cs" />
     <Compile Include="Assets\Scripts\AnimatedSprite.cs" />
+    <Compile Include="Assets\Scripts\Pellet.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
