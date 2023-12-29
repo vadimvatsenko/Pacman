@@ -9,7 +9,7 @@ public class Ghosts : MonoBehaviour
     public GhostFrightened frightened { get; private set; }
 
     public GhostBehavior initialBehavior;
-    [SerializeField] Transform target;
+    public Transform target;
     public int points = 200;
 
     private void Awake()

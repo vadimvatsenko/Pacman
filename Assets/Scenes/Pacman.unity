@@ -8517,6 +8517,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 481432267739027988, guid: 7bcfb7331742784429f20fe10b696c71, type: 3}
+      propertyPath: duration
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4945147100705722639, guid: 7bcfb7331742784429f20fe10b696c71, type: 3}
       propertyPath: m_Name
       value: Ghost_Pinky
@@ -8858,6 +8862,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &557433204 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 678823504085261975, guid: 8f13ac76ac4752048bb98e49796b1627, type: 3}
+  m_PrefabInstance: {fileID: 2069182764}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb7624146e6e024389d5e5683c8c9f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &673130767 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2192556530719963273, guid: 7bcfb7331742784429f20fe10b696c71, type: 3}
+  m_PrefabInstance: {fileID: 446151676}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb7624146e6e024389d5e5683c8c9f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &824820000
 GameObject:
   m_ObjectHideFlags: 0
@@ -9745,7 +9771,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43215e87cb3f7cd49a915c2f9c03a127, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ghosts: []
+  ghosts:
+  - {fileID: 1023448543}
+  - {fileID: 1589735216}
+  - {fileID: 673130767}
+  - {fileID: 557433204}
   pacman: {fileID: 467541882}
   pellets: {fileID: 183371242}
 --- !u!4 &935222245
@@ -9763,6 +9793,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1023448543 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7672656939794801467, guid: 0c72ebd5e982f024b867113c7d2e53b6, type: 3}
+  m_PrefabInstance: {fileID: 1937185393}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb7624146e6e024389d5e5683c8c9f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1426550192
 GameObject:
   m_ObjectHideFlags: 0
@@ -9794,6 +9835,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 305096752}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1589735216 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1706899033553515955, guid: 887ba4a01b84cc546976f09ec290ecae, type: 3}
+  m_PrefabInstance: {fileID: 1923684130}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb7624146e6e024389d5e5683c8c9f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1804831134
 GameObject:
   m_ObjectHideFlags: 0
@@ -9893,6 +9945,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1113511933410170670, guid: 887ba4a01b84cc546976f09ec290ecae, type: 3}
+      propertyPath: duration
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5583663344771046453, guid: 887ba4a01b84cc546976f09ec290ecae, type: 3}
       propertyPath: m_Name
       value: Ghost_Blinky
@@ -9994,6 +10050,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost_Inky
       objectReference: {fileID: 0}
+    - target: {fileID: 8266676255154225574, guid: 0c72ebd5e982f024b867113c7d2e53b6, type: 3}
+      propertyPath: duration
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10007,6 +10067,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1272347115800525834, guid: 8f13ac76ac4752048bb98e49796b1627, type: 3}
+      propertyPath: duration
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 5490571826116172258, guid: 8f13ac76ac4752048bb98e49796b1627, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
