@@ -10,15 +10,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 469246068964919170, guid: 6ac49d60ea526a64288ae6443fefffc5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 861434976278188987, guid: 6ac49d60ea526a64288ae6443fefffc5, type: 3}
       propertyPath: initialBehavior
       value: 
       objectReference: {fileID: 481432267739027988}
+    - target: {fileID: 1384729477095944486, guid: 6ac49d60ea526a64288ae6443fefffc5, type: 3}
+      propertyPath: duration
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4069845282512969272, guid: 6ac49d60ea526a64288ae6443fefffc5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5669373421397775566, guid: 6ac49d60ea526a64288ae6443fefffc5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30,7 +34,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5669373421397775566, guid: 6ac49d60ea526a64288ae6443fefffc5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5669373421397775566, guid: 6ac49d60ea526a64288ae6443fefffc5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -75,6 +79,14 @@ PrefabInstance:
     - target: {fileID: 8861689602415295281, guid: 6ac49d60ea526a64288ae6443fefffc5, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976117329876511949, guid: 6ac49d60ea526a64288ae6443fefffc5, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976117329876511949, guid: 6ac49d60ea526a64288ae6443fefffc5, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9182689514226506013, guid: 6ac49d60ea526a64288ae6443fefffc5, type: 3}
       propertyPath: m_Sprite

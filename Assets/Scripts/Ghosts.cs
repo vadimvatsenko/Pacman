@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Ghosts : MonoBehaviour
 {
+    public new Rigidbody2D rigidbody2D;
     public Movement movement { get; private set; }
     public GhostHome home { get; private set; }
     public GhostScatter scatter { get; private set; }
@@ -14,6 +15,7 @@ public class Ghosts : MonoBehaviour
 
     private void Awake()
     {
+        this.rigidbody2D = GetComponent<Rigidbody2D>();
         this.movement = GetComponent<Movement>();
         this.home = GetComponent<GhostHome>();
         this.scatter = GetComponent<GhostScatter>();

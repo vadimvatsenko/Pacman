@@ -16,13 +16,17 @@ PrefabInstance:
       propertyPath: initialBehavior
       value: 
       objectReference: {fileID: 8266676255154225574}
+    - target: {fileID: 1384729477095944486, guid: 6ac49d60ea526a64288ae6443fefffc5, type: 3}
+      propertyPath: duration
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5669373421397775566, guid: 6ac49d60ea526a64288ae6443fefffc5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5669373421397775566, guid: 6ac49d60ea526a64288ae6443fefffc5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5669373421397775566, guid: 6ac49d60ea526a64288ae6443fefffc5, type: 3}
       propertyPath: m_LocalPosition.z
