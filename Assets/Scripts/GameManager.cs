@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
     private void NewGame()
     {
         SetScore(0);
-        SetScore(3);
+        SetLives(3);
         NewRound();
     }
 
