@@ -26,7 +26,7 @@ public class Movement : MonoBehaviour
         ResetState();
     }
 
-    private void ResetState()
+    public void ResetState()
     {
         this.speedMultipler = 1.0f;
         this.direction = this.initialDirection;

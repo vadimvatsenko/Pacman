@@ -64,14 +64,19 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GhostScatter.cs" />
     <Compile Include="Assets\Scripts\Passage.cs" />
+    <Compile Include="Assets\Scripts\GhostBehavior.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Ghosts.cs" />
+    <Compile Include="Assets\Scripts\GhostFrightened.cs" />
+    <Compile Include="Assets\Scripts\GhostHome.cs" />
     <Compile Include="Assets\Scripts\PowerPellet.cs" />
     <Compile Include="Assets\Scripts\Pacman.cs" />
     <Compile Include="Assets\Scripts\AnimatedSprite.cs" />
     <Compile Include="Assets\Scripts\Pellet.cs" />
+    <Compile Include="Assets\Scripts\GhostChase.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
